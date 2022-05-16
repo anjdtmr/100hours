@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  height: 100px;
+  border: 5px solid black;
+}
+
+section {
+  height: 300px;
+  border: 5px solid black;
+}
+
+/* If the screen is 700px or wider */
+@media screen and (min-width: 900px) {
+  header,
+  footer {
+    clear: both;
+  }
+
+  section {
+    width: 33.33333%;
+    float: left;
+  }
+
+  header,
+  footer,
+  section {
+    background-color: aqua;
+    border: yellowgreen dotted 5px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  header,
+  footer,
+  section {
+    flex-direction: column;
+    float: left;
+    width: 100%;
+  }
+}

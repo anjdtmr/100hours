@@ -1,0 +1,19 @@
+nav,
+aside {
+  float: left;
+  width: 10%;
+}
+
+nav {
+  width: 40%;
+}
+
+aside {
+  width: 30%;
+}
+
+.latestNews,
+.newsletters,
+footer {
+  float: left;
+}

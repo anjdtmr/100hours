@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(100, 204, 206, 1);
+  border: 5px solid rgb(63, 242, 63);
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+}
+
+h2 {
+  text-align: left;
+}
+
+h2,
+p {
+  color: rgb(255, 255, 255);
+}
+
+body > p {
+  text-align: left;
+}
+
+img {
+  width: 200px;
+  float: right;
+  margin: ;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: rgb(114, 245, 7);
+}
