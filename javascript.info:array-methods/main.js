@@ -105,6 +105,17 @@ alert(arrUnmodified);
 
 // let calc = new Calculator;
 
+// constructor function
+function Calculator() {
+  this.calculate = (str) => {
+    // "1 + 2"
+    const test = str.split(" "); // ['1', '+',  '2']
+    console.log(test);
+  };
+}
+
+const calc = new Calculator();
+
 // alert( calc.calculate("3 + 7") ); // 10
 // Then add the method addMethod(name, func) that teaches the calculator a new operation. It takes the operator name and the two-argument function func(a,b) that implements it.
 
